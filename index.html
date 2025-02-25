@@ -1,12 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>CyberHat Disk</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CyberHat Disk</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#solutions">Cybersecurity Solutions</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>Introduction</h1>
-<p>This website is under construction and hope so will be good soon</p>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero">
+            <h1>Welcome to CyberSecure Solutions</h1>
+            <p>Your trusted partner in cybersecurity and education</p>
+            <button onclick="window.location.href='#courses'">Browse Courses</button>
+        </div>
+    </section>
 
+    <!-- Cybersecurity Solutions Section -->
+    <section id="solutions">
+        <div class="solutions-container">
+            <h2>Cybersecurity Solutions</h2>
+            <div class="solution">
+                <h3>Threat Detection</h3>
+                <p>Protect your organization with advanced threat detection systems.</p>
+            </div>
+            <div class="solution">
+                <h3>Data Protection</h3>
+                <p>Ensure your data is secure and encrypted at all times.</p>
+            </div>
+            <div class="solution">
+                <h3>Network Security</h3>
+                <p>Secure your network with the latest firewall and intrusion prevention systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses">
+        <div class="courses-container">
+            <h2>Cybersecurity Courses for Students</h2>
+            <div class="course">
+                <h3>Intro to Cybersecurity</h3>
+                <p>Learn the fundamentals of cybersecurity, including risk management and encryption.</p>
+                <button onclick="window.location.href='https://www.example.com/register'">Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Network Security Basics</h3>
+                <p>Get hands-on experience in securing networks and identifying vulnerabilities.</p>
+                <button onclick="window.location.href='https://www.example.com/register'">Enroll Now</button>
+            </div>
+            <div class="course">
+                <h3>Advanced Threat Analysis</h3>
+                <p>Master advanced techniques in threat detection and analysis.</p>
+                <button onclick="window.location.href='https://www.example.com/register'">Enroll Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Reach out to us and we’ll help you find the right solutions for your needs.</p>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 CyberSecure Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
